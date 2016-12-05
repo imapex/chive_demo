@@ -54,5 +54,5 @@ if [ $(uname -m) == "x86_64" ]
     exit 1
 fi
 
-echo "To access your application please browse to http://<host ip address>:8080 where 'hostIP address is the IP address
+echo "To access your application please browse to http://<host ip address>:8080 where 'host IP address' is the IP address
 of the machine you ran this script on."
