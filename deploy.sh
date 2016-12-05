@@ -53,3 +53,6 @@ if [ $(uname -m) == "x86_64" ]
             -dp 8080:8080 3pings/chive_web:arm
     exit 1
 fi
+
+echo "To access your application please browse to http://<host ip address>:8080 where 'host IP address' is the IP address
+of the machine you ran this script on."

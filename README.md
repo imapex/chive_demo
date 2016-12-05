@@ -6,16 +6,16 @@ Cisco Heat Indication Visualization Explorer is a sample application that illust
 
 Cisco has provided with powerful APIs within many of the products they manufacturer, but most network engineers feel that programming and using those APIs is too difficult.  We set out to attack this by showing in a simple 3 tier application that we can use information within Cisco manufactured devices to provide us with a quick visualization of data.  In this case we are using the temperature sensors located within the ACI fabric.  The platform has the following capabilities:
 
+* Capture temperature data from each switch node in an ACI Fabric.
+* Provide a simple API Gateway to consume that information.
+* Present that information onto a customizable web page that users are able "to position their "drag and drop" position the switches that have been collected from within their environment.
+
 ## Demo Application Requirements
 
 * Docker must be installed
     * For installation instructions on installing Docker on Raspberry Pi click [here](http://blog.hypriot.com/getting-started-with-docker-on-your-arm-device/) and select the operating system you are on.
     * To install Docker for Mac or Linux [click here](https://www.docker.com/products/overview)
     * Currently Docker on Windows is not supported.
-
-* Capture temperature data from each switch node in an ACI Fabric.
-* Provide a simple API Gateway to consume that information.
-* Present that information onto a customizable web page that users are able "to position their "drag and drop" position the switches that have been collected from within their environment.
 
 ## Other Demo Repositories
 
