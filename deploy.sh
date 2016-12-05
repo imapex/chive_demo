@@ -1,10 +1,13 @@
 #!/usr/bin/env bash
+
 echo "Enter your APIC IP Address: "
 read apic_ip
 echo "Enter your APIC Username: "
 read apic_username
 echo "Enter your APIC Password: "
 read -s apic_password
+
+echo "We are loading your application."
 
 if [ $(uname -m) == "x86_64" ]
     then

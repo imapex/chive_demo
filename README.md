@@ -6,6 +6,12 @@ Cisco Heat Indication Visualization Explorer is a sample application that illust
 
 Cisco has provided with powerful APIs within many of the products they manufacturer, but most network engineers feel that programming and using those APIs is too difficult.  We set out to attack this by showing in a simple 3 tier application that we can use information within Cisco manufactured devices to provide us with a quick visualization of data.  In this case we are using the temperature sensors located within the ACI fabric.  The platform has the following capabilities:
 
+## Demo Application Requirements
+
+* Docker must be installed
+    * For installation instructions on installing Docker on Raspberry Pi click [here](http://blog.hypriot.com/getting-started-with-docker-on-your-arm-device/) and select the operating system you are on.
+    * To install Docker for Mac or Linux [click here](https://www.docker.com/products/overview)
+    * Currently Docker on Windows is not supported.
 
 * Capture temperature data from each switch node in an ACI Fabric.
 * Provide a simple API Gateway to consume that information.
@@ -36,9 +42,7 @@ Within the CHIVE Demonstration there is a setup script that will deploy the thre
 
 1. First use git clone the [chive_demo](https://github.com/imapex/chive_demo) repository on the device you are planning to install.
 2. Type "cd chive_demo"
-3. Type "chmod +x ./deploy.sh"
-    We need to allow the script to be executable.
-4. Run the "deploy.sh" script.
+3. Run the "deploy.sh" script.
 
 You will be prompted to enter the following:
 1. APIC IP Address (FQDN is an option if DNS is available)
